@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* ================== variable =========================== */
+:root {
+  --dark-blue: #070615;
+  --light-blue: #12152b;
+  --yellow: #ffaf29;
+  --white: #ffffff;
+  --font-logo: 'Pacifico', cursive;
+}
+
+/* ================== variable =========================== */
+/* ================== General =========================== */
+.bg-dark-blue {
+  background-color: var(--dark-blue);
+}
+
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.text-dark-blue {
+  color: var(--dark-blue);
+}
+
+.text-light-blue {
+  color: var(--light-blue);
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.dropdown-menu-color {
+  background-color: var(--dark-blue);
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-3 {
+  margin-right: 1rem;
+}
+
+.mr-4 {
+  margin-right: 1.5rem;
+}
+
+.mr-5 {
+  margin-right: 3rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1.5rem;
+}
+
+.ml-5 {
+  margin-left: 3rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pr-3 {
+  padding-right: 1rem;
+}
+
+.pr-4 {
+  padding-right: 1.5rem;
+}
+
+.pr-5 {
+  padding-right: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w-fit-content {
+  width: fit-content !important;
+}
+
+/* ================== General =========================== */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style: none !important;
+  /* outline: none !important; */
+}
+
+.social-icons {
+  font-size: 1rem;
+    margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.social-icons  > li {
+  display: inline-block;
+}
+
+.social-icons a {
+  color: var(--white);
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  font-size: 18px;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 36px;
+  color: #fff;
+  margin: 0 3px 3px 0;
+  padding: 0.1rem;
+}
+
+.header {
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar {
+  z-index: 999;
+  width: 100%;
+  background: transparent !important;
+}
+
+.header-content {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link, .navbar-brand {
+  color: var(--white) !important;
+  margin-top: 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.nav-item {
+  position: relative;
+   margin-right: 1.3rem;
+  
+}
+.nav-link {
+ 
+}
+
+.nav-link:after {
+  content: "";
+  width:0;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.nav-link:hover::after{
+  width: 100%;
+
+}
+
+.header-text {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+.defenation {
+  font-size: 2.5rem;
+  /* font-weight: bold; */
+  color: var(--white);
+  margin-bottom: 2.2rem;
+}
