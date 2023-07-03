@@ -230,3 +230,90 @@ a {
   color: var(--white);
   margin-bottom: 2.2rem;
 }
+
+.pb-70 {
+    padding-bottom: 70px !important;
+}
+
+.mt-6 {
+  margin-top: 6rem !important;
+}
+
+.hero-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.553);
+}
+
+.progress {
+  height: 1.7rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem !important;
+}
+
+.pl-2 {
+  padding-left: 0.5rem !important;
+}
+
+.progress-bar {
+  background-color: black !important;
+}
+
+.technology {
+  font-size: 0.8rem;
+  color: var(--white);
+}
+
+.btn-black {
+  background-color: black;
+  color: var(--white);
+  border-radius: 2;
+  padding: 10px 30px;
+  font-size: 0.8rem;
+  transition: all 0.5s;
+}
+
+.btn-black:hover {
+  background-color: var(--white);
+  color: black;
+  border: 1px solid black;
+}
+
+.btn-outline-black {
+  background-color: transparent;
+  color: black;
+  border-radius: 2;
+  padding: 10px 30px;
+  font-size: 0.8rem;
+  transition: all 0.5s;
+  border: 1px solid black;
+}
+
+.btn-outline-black:hover {
+  background-color: black;
+  color: var(--white);
+  border: 1px solid black;
+}
+
+.hero-img::after {
+content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -27px;
+    bottom: -30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+
+
+@media screen and (max-width: 991px) {
+.hero-img {
+    margin-bottom: 80px !important;
+}
+}
+
