@@ -434,4 +434,57 @@ a {
 .active::after {
     opacity: 1;
     width: 100%;
-} 
+}
+
+.testimonials {
+  background-color: #f5f5f5;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.client-img {
+  border-radius: 50%;
+  width: 100px;
+}
+.section-padding {
+    padding: 100px 0;
+}
+
+.clients-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+}
+
+.carousel-indicators button {
+  border-radius: 50% !important;
+  width: 11px !important;
+  height: 11px !important;
+  margin: auto;
+margin-right: 0.5rem !important;
+  background-color: #00000069 !important;
+  
+}
+.carousel-indicators  {
+     bottom: -70px !important;
+  
+}
+
+
+.caption-paragraph {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #888;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 60%;
+    margin: auto;
+}
+
+.counters {
+  height: 1000px;
+  width: 100px;
+  background-color: #ad0202;
+}
