@@ -328,7 +328,7 @@ a {
     padding: 50px 20px;
     border-radius: 9px;
     box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
 }
 
 .service-icon {
@@ -355,11 +355,12 @@ a {
     color: #fff;
 }
 
-.top-buffer { margin-top:20px !important; }
+.top-buffer {
+    margin-top: 20px !important;
+}
 
 .tabs {
-  color: black;
-
+    color: black;
 }
 
 .filtering-navs {
@@ -390,7 +391,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border:rgba(0, 0, 0, 0.311) solid 4px;
+    border: rgba(0, 0, 0, 0.311) solid 4px;
 }
 
 .item-img:hover .item-img-overlay {
@@ -398,15 +399,14 @@ a {
 }
 
 .sm-titl {
-  letter-spacing: 2px;
-  font-size: 0.80rem;
-
+    letter-spacing: 2px;
+    font-size: 0.8rem;
 }
 
 .gallery-icon a {
-  color: white;
-  padding: 0.25rem;
-  text-align: center;
+    color: white;
+    padding: 0.25rem;
+    text-align: center;
 }
 
 .portfolio .item-img .gallery-icon i {
@@ -416,13 +416,13 @@ a {
     border-radius: 50%;
     background: #111;
     color: #eee;
-    font-size: 0.80rem;
+    font-size: 0.8rem;
 }
 
 .filtering::after {
     content: '';
     width: 0%;
-  height: 2.5px;
+    height: 2.5px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -437,16 +437,16 @@ a {
 }
 
 .testimonials {
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 .carousel-item {
-  text-align: center;
+    text-align: center;
 }
 
 .client-img {
-  border-radius: 50%;
-  width: 100px;
+    border-radius: 50%;
+    width: 100px;
 }
 .section-padding {
     padding: 100px 0;
@@ -459,19 +459,16 @@ a {
 }
 
 .carousel-indicators button {
-  border-radius: 50% !important;
-  width: 11px !important;
-  height: 11px !important;
-  margin: auto;
-margin-right: 0.5rem !important;
-  background-color: #00000069 !important;
-  
+    border-radius: 50% !important;
+    width: 11px !important;
+    height: 11px !important;
+    margin: auto;
+    margin-right: 0.5rem !important;
+    background-color: #00000069 !important;
 }
-.carousel-indicators  {
-     bottom: -70px !important;
-  
+.carousel-indicators {
+    bottom: -70px !important;
 }
-
 
 .caption-paragraph {
     font-size: 1.2rem;
@@ -484,14 +481,15 @@ margin-right: 0.5rem !important;
 }
 
 .counters {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 100px 0;
 }
 
 .counter-box {
     text-align: center;
 }
-.counter-icon, .counter {
+.counter-icon,
+.counter {
     font-size: 2rem;
     font-weight: 700;
 }
@@ -508,7 +506,7 @@ margin-right: 0.5rem !important;
 
 .team-content {
     text-align: center;
-    background-color: #5B5B5B;
+    background-color: #5b5b5b;
     padding: 1rem 0 1rem 0;
     border-radius: 0px 0px 6px 6px;
 }
@@ -526,11 +524,12 @@ margin-right: 0.5rem !important;
     align-items: center;
 }
 
-.team-content > .team-name, .team-role {
+.team-content > .team-name,
+.team-role {
     color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
-} 
+}
 
 .list-inline {
     text-align: center;
@@ -539,9 +538,8 @@ margin-right: 0.5rem !important;
     align-items: center;
 }
 
-
 .list-inline li {
-    padding: 0 0.50rem;
+    padding: 0 0.5rem;
 }
 
 .list-inline li i {
@@ -568,5 +566,105 @@ margin-right: 0.5rem !important;
 .team-img {
     overflow: hidden;
     transition: all 0.5s;
-    
+}
+
+.social-icons-contact i {
+    color: black;
+    background: #f4f4f4;
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    border-radius: 36px;
+    margin: 0 3px 3px 0;
+    padding: 0.1rem;
+    transition: all 0.5s;
+}
+
+.contact-header {
+    font-size: 1.2rem;
+    font-weight: 650;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-paragraph {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #888;
+}
+
+.info:hover .social-icons-contact i {
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 576px) {
+    .contact-container {
+        width: 550px;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+        width: 700px;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) {
+ .contact-container {
+        width: 900px;
+        text-align: center;
+        margin: auto;
+    }
+}
+@media (min-width: 1200px) {
+    .contact-container {
+        width: 970px;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+.form {
+    margin-top: 4rem;
+}
+
+.custom-input {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+.btn-dark {
+    padding: 0.4rem 2.5rem;
+    transition: all 0.5s;
+}
+
+.btn-dark:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.contact-us {
+    margin-bottom: 6rem;
+}
+
+footer {
+    padding: 2rem;
+}
+
+.footer-paragraph {
+    vertical-align: middle;
+    margin: auto;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #888;
 }
